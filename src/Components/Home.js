@@ -1,22 +1,11 @@
 import React from "react";
-
+import './home.css'
 function demo(){
-    <style>
-        {/* .phone{
-            color:white;
-            font-size:15px;
-        }
-        .envelope{
-            font-size:15px;
-            color:white;
-            margin-left:10px;
-        } */}
-    </style>
     return(
         <>
         <div class="he">
              <div>
-                <i class="fa fa-phone">   +91 9856748987</i>
+                <i class="fa fa-phone"><span className='phone'>   +91 9856748987</span></i>
                  <i class="fa fa-envelope">   agrimachin.gmail.com</i>
             </div>
             <div class="my">
