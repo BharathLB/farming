@@ -9,19 +9,19 @@ function demo(){
                  <i class="fa fa-envelope" className='email'>   agrimachin.gmail.com</i>
             </div>
             <div class="my">
-                <button href="#">Shop</button><span class="vl"></span>
-                <button href="#">Cart</button><span class="vl"></span>
+                <button href="#">Shop</button><span className="vl"></span>
+                <button href="#">Cart</button><span className="vl"></span>
                 <button href="#">Account</button>
             </div>
         </div>
         <div class="navsec">
             <div><h1 style={{color:"#47260F"}}>FARMING</h1></div>
-            <div class="navba"> 
-                <button value="./apex/Home" styleclass="as">Home</button>
-                <button value="./apex/About" styleclass="as">About</button>
-                <button value="./apex/About" styleclass="as">Pages</button>
-                <button value="./apex/About" styleclass="as">Blogs</button>
-                <button value="./apex/Contactuss" styleclass="as">Contact</button>
+            <div className='navba'> 
+                <button value="./apex/Home" className='as'>Home</button>
+                <button value="./apex/About" className='as'>About</button>
+                <button value="./apex/About" className='as'>Pages</button>
+                <button value="./apex/About" className='as'>Blogs</button>
+                <button value="./apex/Contactuss" className='as'>Contact</button>
             </div>
         </div>
 
