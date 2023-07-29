@@ -1,3 +1,8 @@
 .phone{
-    color: red;
+    color: white;
+    font-size: 15px;
+}
+.email{
+    color: wheat;
+    font-size: 15px;;
 }

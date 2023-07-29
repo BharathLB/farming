@@ -6,7 +6,7 @@ function demo(){
         <div class="he">
              <div>
                 <i class="fa fa-phone"><span className='phone'>   +91 9856748987</span></i>
-                 <i class="fa fa-envelope">   agrimachin.gmail.com</i>
+                 <i class="fa fa-envelope" className='email'>   agrimachin.gmail.com</i>
             </div>
             <div class="my">
                 <button href="#">Shop</button><span class="vl"></span>
@@ -15,7 +15,7 @@ function demo(){
             </div>
         </div>
         <div class="navsec">
-            <div><h1>FARMING</h1></div>
+            <div><h1 style={{color:"#47260F"}}>FARMING</h1></div>
             <div class="navba"> 
                 <button value="./apex/Home" styleclass="as">Home</button>
                 <button value="./apex/About" styleclass="as">About</button>
