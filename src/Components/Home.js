@@ -41,7 +41,6 @@ function demo(){
         </div>*/}
 
       {/* Footer */}
-        <p>sdfdgbdufbh</p>
       <div class="foot">
         <div style={{color:"white"}}>
             <p style={{color:"white",fontSize:"20px",fontWeight:"700"}}>CONTACT INFO</p>
@@ -76,7 +75,7 @@ function demo(){
             <hr class="hr"/>
             <div style={{paddingtop:"5px"}}>
                 <input type="text" placeholder="Enter your email" id="theTextInput" style={{padding:"5px"}}/>
-                <button value="Submit" style={{padding:"6px;"}}/>
+                <button value="Submit" placeholder="Submit" style={{padding:"6px"}}/>
             </div>
         </div>
     </div>
