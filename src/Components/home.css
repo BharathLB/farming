@@ -18,74 +18,70 @@
      justify-content: space-between;
      padding: 10px 70px;
   }
-  
-  footer {
-    background-color: #777;
-    padding: 10px;
-    text-align: center;
-    color: white;
-  }
-  
-  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-  @media (max-width: 600px) {
-    nav, article {
-      width: 100%;
-      height: auto;
-    }
-  }
-  
   .my{
-      word-spacing: 10px;
-  }
-  .my a{
-      color:white;
-      font-size:15px;
-      font: normal normal normal 14px/1 FontAwesome;
-      text-decoration: none;
-  }
-  
-  .my a:hover {
-    color:#00ffff;
+    word-spacing: 10px;
+    font-size: 16px;
+}
+.my a{
+    color:white;
+    font-size:15px;
+    font: normal normal normal 14px/1 FontAwesome;
     text-decoration: none;
+}
+
+.my a:hover {
+  color:#00ffff;
+  text-decoration: none;
+}
+.vl {
+    border-left: 2px solid white;
+    height: 50px;
+    margin:45px;
   }
-  .navsec{
-      display: flex;
-      justify-content: space-between;
-      padding:30px 70px;
+  .footertitle{
+    color:white;font-size:14px;
   }
-  .navba {
-      word-spacing: 35px;
-      font-weight:700;
-      font-size:16px;
-      color:black;
-      
+  .fotblog{
+    color:white;font-size:14px;
   }
-  .navba a {
-      text-decoration: none;
+  .foot{
+    display: flex;
+    justify-content: space-between;
+    padding:30px 70px;
+    text-align:left;
+    background-color:#201714;
+}
+.hr{
+    width:30px;
+    text-align:lleft;
+    margin:0px;
+}
+.foot a {
+     color:white;
+     line-height: 2.3;
+     font-size: 13px;
+     text-decoration: none;
+}
+
+  .slider {
+    width: 100%;
+    height: 510px;
+    position: relative;
   }
-   .as{
-       margin-left: 50px;
-   }
-  .navba a:hover{
-      text-decoration: none;
+
+  .slider img {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* transition: all 0.5s ease-in-out; */
   }
-  .navba a.active{
-      color:#47260F;
-      text-decoration: none;
-      background-color:snow;
+
+  .slider img:first-child {
+    z-index: 1;
   }
-  .secbody{
-      padding:0px 70px;
-      text-align:center;
-      position: absolute;
-      top: 40%;
-      z-index: 11;
-      left:19%;
+
+  .slider img:nth-child(2) {
+    z-index: 0;
   }
-  .agrim{
-      display: flex;
-      justify-content: space-between;
-      padding:30px 70px;
-      text-align:center;
-     }
-  
